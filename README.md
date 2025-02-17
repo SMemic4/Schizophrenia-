@@ -37,6 +37,33 @@ The schizophrenia dataset contains 10,000 instances and 20 features, including d
 
 Source: [Schizophrenia Dataset](https://www.kaggle.com/datasets/asinow/schizohealth-dataset)
 
+
+## Dataset Features
+
+| Feature Name              | Type        | Description                                      | Values (if categorical)                                         |
+|---------------------------|------------|--------------------------------------------------|-----------------------------------------------------------------|
+| Patient_ID               | Numerical  | Unique identifier assigned to each patient      | Unique ID                                                      |
+| Age                      | Numerical  | Patient's age                                   | 18-80                                                          |
+| Gender                   | Categorical| Gender of the patient                           | 0: Female, 1: Male                                             |
+| Education_Level          | Categorical| Highest level of education completed           | 1: Primary, 2: Middle, 3: High School, 4: University, 5: Postgraduate |
+| Marital_Status          | Categorical| Marital status of the patient                  | 0: Single, 1: Married, 2: Divorced, 3: Widowed                 |
+| Occupation              | Categorical| Employment status of the patient               | 0: Unemployed, 1: Employed, 2: Retired, 3: Student             |
+| Income_Level            | Categorical| Income level category                          | 0: Low, 1: Medium, 2: High                                     |
+| Living_Area             | Categorical| Living area classification                     | 0: Rural, 1: Urban                                            |
+| Diagnosis               | Categorical| Schizophrenia diagnosis status                 | 0: Not schizophrenic, 1: Schizophrenic                         |
+| Disease_Duration        | Numerical  | Duration of illness (years)                    | 1-40                                                           |
+| Hospitalizations        | Numerical  | Number of hospital admissions                  | 0-10                                                           |
+| Family_History         | Categorical| Family history of schizophrenia                | 0: No, 1: Yes                                                 |
+| Substance_Use          | Categorical| Substance use history (tobacco, alcohol, drugs)| 0: No, 1: Yes                                                 |
+| Suicide_Attempt        | Categorical| History of suicide attempts                    | 0: No, 1: Yes                                                 |
+| Positive_Symptom_Score | Numerical  | Positive symptom severity                      | 0-100                                                          |
+| Negative_Symptom_Score | Numerical  | Negative symptom severity                      | 0-100                                                          |
+| GAF_Score              | Numerical  | Global assessment of functioning               | 0-100                                                          |
+| Social_Support         | Categorical| Level of social support                        | 0: Low, 1: Medium, 2: High                                     |
+| Stress_Factors         | Categorical| Level of stress factors                        | 0: Low, 1: Medium, 2: High                                     |
+| Medication_Adherence   | Categorical| Adherence to medication regimen                | 0: Poor, 1: Moderate, 2: Good                                  |
+
+
 ---
 
 # Workflow
