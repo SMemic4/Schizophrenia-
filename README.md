@@ -1,3 +1,4 @@
+
 # Schizophrenia Diagnosis and Symptom Prediction
 ---
 
@@ -10,7 +11,7 @@ This project focuses on developing machine learning models to classify individua
 
 # Background
 
-Schizophrenia is a complex psychiatric disorder that affects cognition, emotion, and behavior. Predictive modeling can assist in better understanding factors associated with the disorder and potentially aid in early detection or symptom severity estimation.
+Schizophrenia is a complex psychiatric disorder that affects cognition, emotion, and behavior affecting everyday life. Predictive modeling can assist in better understanding factors associated with the disorder and potentially aid in early detection or symptom severity estimation.
 
 ---
 
@@ -46,17 +47,22 @@ Source: [Schizophrenia Dataset](https://www.kaggle.com/datasets/asinow/schizohea
 * Identifying correlations between features
 * Checking for class balance for schizophrenia diagnosis
 
+---
+
 # Data Preprocessing
 
 * Handling categorical variables and encoding them appropriately
 * Normalization or scaling for numerical features if needed
 * Feature Selection
 
+---
+
 # Model Development
 
-* Implementing classification models (Logistic Regression, Decision Trees, etc.)
+* Implementing classification models 
 * Applying regularization techniques (Lasso, Ridge) for regression models
 
+----
 
 # Model Evaluation
 
@@ -64,14 +70,25 @@ Source: [Schizophrenia Dataset](https://www.kaggle.com/datasets/asinow/schizohea
 * Using RMSE and R-squared for regression models
 * Analyzing feature importance and model performance
 
+
+---
+
 # Model Results
 
 * Comparing different models and their performance
 * Analyzing trade-offs between recall and precision
 
+---
+
 # Results
 
+
+---
+
 # Conclusions
+
+
+---
 
 # Tools and Libraries
 
@@ -80,12 +97,24 @@ Source: [Schizophrenia Dataset](https://www.kaggle.com/datasets/asinow/schizohea
 * Scikit-Learn
 * Matplotlib, Seaborn
 
+
+----
+
 # Future Work
 
 TBA
+
+---
 
 # License
 
 This project is licensed under the MIT License.
 
+
+---
+
 # References 
+
+* McCutcheon RA, Reis Marques T, Howes OD. Schizophrenia—An Overview. JAMA Psychiatry. 2020;77(2):201–210. [doi:10.1001/jamapsychiatry.2019.3360](https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2753514)
+
+* Robinson N and Bergen SE (2021) Environmental Risk Factors for Schizophrenia and Bipolar Disorder and Their Relationship to Genetic Risk: Current Knowledge and Future Directions. Front. Genet. 12:686666. [doi: 10.3389/fgene.2021.686666](https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2021.686666/full)
