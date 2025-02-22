@@ -5,7 +5,7 @@
 # Project Overview
 
 
-This project focuses on developing machine learning models to classify individuals as either having schizophrenia or not based on various demographic, clinical, and psychosocial attributes. Additionally, regression models (with a focus on regularization techniques) will be implemented to predict positive symptom severity scores, negative symptom score, and GAF score. Using the schizophrenia dataset, the objective is to build accurate predictive models while performing exploratory data analysis (EDA) to understand key factors associated with schizophrenia diagnosis and symptom severity.
+This project focuses on developing machine learning models to classify individuals as either having schizophrenia or not based on various demographic, clinical, and psychosocial attributes. Additionally, regression models (with a focus on regularization techniques) will be implemented to predict GAF score. Using the schizophrenia dataset, the objective is to build accurate predictive models while performing exploratory data analysis (EDA) to understand key factors associated with schizophrenia diagnosis and symptom severity.
 
 ---
 
